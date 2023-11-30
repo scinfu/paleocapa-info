@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-30T15:36:36.478Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="BpNP9XwsFHrOr7oWbVs3" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-30T16:00:59.109Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="uBW8TVjco-ajAK2F2K0L" version="22.1.5" type="github">
   <diagram name="Pagina-1" id="jGf_04mg0V8zM4tONkqc">
     <mxGraphModel dx="1116" dy="1036" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -88,16 +88,8 @@
         <mxCell id="hDRF6CQTf330OuFsjU3R-21" value="colore" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="210" y="310" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hDRF6CQTf330OuFsjU3R-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="hDRF6CQTf330OuFsjU3R-22" target="hDRF6CQTf330OuFsjU3R-1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="290" y="380" />
-              <mxPoint x="233" y="380" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="hDRF6CQTf330OuFsjU3R-22" value="targa" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="260" y="310" width="60" height="30" as="geometry" />
+          <mxGeometry x="255" y="288" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="hDRF6CQTf330OuFsjU3R-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="hDRF6CQTf330OuFsjU3R-32" target="hDRF6CQTf330OuFsjU3R-5">
           <mxGeometry relative="1" as="geometry">
@@ -379,7 +371,7 @@
         <mxCell id="hDRF6CQTf330OuFsjU3R-142" value="prezzo_livello_1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="640" y="680" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hDRF6CQTf330OuFsjU3R-143" value="prezzo_livello_1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="hDRF6CQTf330OuFsjU3R-143" value="prezzo_livello_2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="640" y="658" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="hDRF6CQTf330OuFsjU3R-144" value="" style="endArrow=none;html=1;rounded=0;entryX=-0.023;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="hDRF6CQTf330OuFsjU3R-140" target="hDRF6CQTf330OuFsjU3R-142">
@@ -411,11 +403,11 @@
         <mxCell id="hDRF6CQTf330OuFsjU3R-147" value="effettua" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="420" y="678" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hDRF6CQTf330OuFsjU3R-154" value="&lt;b&gt;Si assume che:&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="40" y="800" width="110" height="30" as="geometry" />
+        <mxCell id="hDRF6CQTf330OuFsjU3R-154" value="&lt;b&gt;Si assume che:&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="35" y="800" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hDRF6CQTf330OuFsjU3R-155" value="dato che si richiede che un auto abbia un solo proprietario ma non è stato definito che si vuole anche lo storico,&lt;br&gt;&amp;nbsp;in database ci sarà un associazione 1 a n e nel caso che il record dell&#39;auto &lt;br&gt;dovessere essere gia presente si dovrà procedere a un aggiornamento e non alla creazion di un nuovo recprd" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="40" y="820" width="610" height="60" as="geometry" />
+        <mxCell id="hDRF6CQTf330OuFsjU3R-155" value="dato che si richiede che un auto abbia un solo proprietario ma non è stato definito che si vuole anche lo storico,&lt;br&gt;&amp;nbsp;in database ci sarà un associazione 1 a n e nel caso che il record dell&#39;auto &lt;br&gt;dovessere essere gia presente si dovrà procedere a un aggiornamento e non alla creazion di un nuovo record" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="35" y="820" width="610" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hDRF6CQTf330OuFsjU3R-156" value="data" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="295" y="758" width="50" height="30" as="geometry" />
@@ -440,6 +432,51 @@
         </mxCell>
         <mxCell id="hDRF6CQTf330OuFsjU3R-163" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.424;entryY=0.963;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="hDRF6CQTf330OuFsjU3R-156" target="hDRF6CQTf330OuFsjU3R-130">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hDRF6CQTf330OuFsjU3R-167" value="prezzo_livello_7" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="645" y="628" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hDRF6CQTf330OuFsjU3R-168" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.014;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hDRF6CQTf330OuFsjU3R-140" target="hDRF6CQTf330OuFsjU3R-167">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="708" as="sourcePoint" />
+            <mxPoint x="649" y="685" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hDRF6CQTf330OuFsjU3R-169" value="Vincolo di integrità su&amp;nbsp;riparazione.prezzo_livello_7 &amp;gt; 1000" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="968" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hDRF6CQTf330OuFsjU3R-170" value="Vincolo di integrità: non è concessa la vendità di&amp;nbsp;auto con&amp;nbsp; auto.anno_immatricolazione &amp;lt; 1990 auto.km &amp;gt;300000" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="938" width="620" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hDRF6CQTf330OuFsjU3R-171" value="anno_immatricolazione" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="88" y="270" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hDRF6CQTf330OuFsjU3R-172" value="" style="endArrow=none;html=1;rounded=0;entryX=0.21;entryY=0.917;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="hDRF6CQTf330OuFsjU3R-1" target="hDRF6CQTf330OuFsjU3R-171">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="420" as="sourcePoint" />
+            <mxPoint x="490" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hDRF6CQTf330OuFsjU3R-176" value="data_termine_garanzia" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="284" y="310" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hDRF6CQTf330OuFsjU3R-178" value="" style="endArrow=none;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="hDRF6CQTf330OuFsjU3R-1" target="hDRF6CQTf330OuFsjU3R-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="560" as="sourcePoint" />
+            <mxPoint x="340" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hDRF6CQTf330OuFsjU3R-179" value="" style="endArrow=none;html=1;rounded=0;entryX=0.217;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="hDRF6CQTf330OuFsjU3R-1" target="hDRF6CQTf330OuFsjU3R-176">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="560" as="sourcePoint" />
+            <mxPoint x="340" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hDRF6CQTf330OuFsjU3R-180" value="Vincolo di integrità la garanzia deve essere: auto.data_termine_garanzia &amp;lt;= data attule + 5 annni" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="998" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hDRF6CQTf330OuFsjU3R-181" value="&lt;b&gt;Vincoli di integrità&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="900" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
